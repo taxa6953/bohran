@@ -1,0 +1,116 @@
+/* تنظیمات کلی */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.alert-bar {
+    background-color: #ff4444;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.emergency-contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.emergency-contacts li {
+    margin: 10px 0;
+}
+
+.emergency-contacts a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.action-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.action-card h3 {
+    margin-top: 0;
+}
+
+.map-container {
+    text-align: center;
+}
+
+.map-image {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.map-link {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.map-link a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map-link a:hover {
+    text-decoration: underline;
+}
+
+/* استایل‌های بخش اخبار و به‌روزرسانی‌ها */
+.news-links {
+    list-style-type: none;
+    padding: 0;
+    text-align: right; /* متن راست‌چین */
+}
+
+.news-links li {
+    margin: 15px 0;
+}
+
+.news-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.news-links a:hover {
+    color: #0066cc;
+}
+
+.alert-text {
+    color: red; /* رنگ قرمز برای کلمه "هشدار" */
+    font-size: 20px; /* اندازه بزرگ‌تر برای کلمه "هشدار" */
+    font-weight: bold; /* متن پررنگ */
+}
